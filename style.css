@@ -1,9 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #121212; /* Dark background */
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #f0f0f0; /* Light text */
     line-height: 1.6;
 }
 
@@ -11,9 +11,10 @@ body {
     max-width: 900px;
     margin: auto;
     padding: 2rem;
-    background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #1e1e1e; /* Slightly lighter dark container */
+    box-shadow: 0 0 20px rgba(0, 200, 83, 0.1); /* Greenish shadow */
     border-radius: 8px;
+    border: 1px solid #00c8531a; /* Subtle green border */
 }
 
 header {
@@ -33,49 +34,50 @@ header {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #ddd;
+    border: 5px solid #00c853; /* Green border */
 }
 
 h1 {
-    color: #444;
+    color: #00e676; /* Brighter green for heading */
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
 .header-info {
     font-size: 1.1rem;
-    color: #555;
+    color: #b2ebf2; /* Light blue-ish for contact info */
 }
 
 a {
-    color: #007bff;
+    color: #00c853; /* Green links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #00e676; /* Brighter green on hover */
 }
 
 section {
     margin-bottom: 2rem;
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: #272727; /* Darker section background */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px rgba(0, 200, 83, 0.05); /* Subtle green shadow */
+    border: 1px solid #00c8531a; /* Subtle green border */
 }
 
 h2 {
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #009688; /* Green border bottom */
     padding-bottom: 0.5rem;
-    color: #444;
+    color: #00e676; /* Green heading text */
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .summary p {
     font-size: 1.1rem;
-    color: #555;
+    color: #e0f7fa; /* Lighter text for summary */
 }
 
 .skills-grid {
@@ -85,21 +87,22 @@ h2 {
 }
 
 .skill-item {
-    background-color: #f9f9f9;
+    background-color: #1e1e1e; /* Darker skill item background */
     padding: 1rem;
     border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    border: 1px solid #00c8531a; /* Subtle green border */
 }
 
 .skill-item i {
     font-size: 1.5rem;
-    color: #007bff;
+    color: #00c853; /* Green icon color */
 }
 
 .skill-item strong {
-    color: #444;
+    color: #b9f6ca; /* Light green for strong text */
 }
 
 .experience .job-item {
@@ -108,7 +111,7 @@ h2 {
 
 .job-date {
     font-style: italic;
-    color: #777;
+    color: #80cbc4; /* Teal for job date */
     margin-bottom: 0.5rem;
 }
 
@@ -123,12 +126,12 @@ h2 {
 
 .degree {
     font-weight: bold;
-    color: #444;
+    color: #b2dfdb; /* Light teal for degree */
 }
 
 .gpa {
     font-style: italic;
-    color: #777;
+    color: #80cbc4; /* Teal for GPA */
 }
 
 .projects .project-item {
@@ -144,11 +147,12 @@ h2 {
 }
 
 .cert-list li {
-    background-color: #e7f3ff;
-    color: #333;
+    background-color: #263238; /* Darker cert list background */
+    color: #a7ffeb; /* Light green for cert text */
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     font-size: 0.9rem;
+    border: 1px solid #00c8531a; /* Subtle green border */
 }
 
 /* Media Queries for Responsiveness */
